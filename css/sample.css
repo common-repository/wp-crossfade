@@ -1,0 +1,58 @@
+/* wp-crossfade start */
+#wp-crossfade {
+	text-align: left;
+	position: relative;
+	margin: auto;
+	border: 1px solid #222;
+}
+#wp-crossfade,
+.wp-crossfade-class-container {
+	width: 754px;
+	height: 263px;
+	overflow: hidden;
+}
+#wp-crossfade-loading {
+	padding: 98px 0;
+	border: 1px solid #ccc;
+	background-color: #eee;
+	text-align: center;
+}
+.wp-crossfade-class-text-container {
+	position: absolute;
+	top: 10px;
+	background-color: #fff; 
+	overflow: hidden;
+	width: 413px;
+	height: 78px;
+	z-index: 2000;
+	opacity: .9;
+}
+.wp-crossfade-class-text-container div {
+	margin: 6px 0;
+	padding: 0 6px;
+}
+.wp-crossfade-class-dot-container {
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+	width: 1px;
+	height: 1px;
+}
+.wp-crossfade-class-dot {
+	width: 15px;
+	height: 15px;
+	background-color: #000;
+	border: 1px solid #eee;
+}
+.wp-crossfade-class-dot-selected {
+	opacity: 0;
+	width: 16px;
+	height: 16px;
+	background-color: #eee;
+	margin: -1px;
+}
+.wp-crossfade-class-image-container {
+	overflow: hidden;
+	text-align: right;
+}
+/* wp-crossfade end */

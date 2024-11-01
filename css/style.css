@@ -1,0 +1,35 @@
+/**
+ * wp-crossfade styles
+ */
+
+div.arrow {
+	width:16px;
+	height:16px;
+	background:url(images/arrow_ns.png) no-repeat;
+	float:left;
+	margin:6px 8px 0 0;
+	cursor:pointer;
+}
+
+div.wp-crossfade-thumbnail-container {
+	position: relative;
+}
+
+div.wp-crossfade-thumbnail {
+	border: 2px solid #000;
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+}
+
+div.wp-crossfade-thumbnail img {
+	max-width: 32px;
+	max-height: 32px;
+}
+
+div.inline-edit {
+	padding:10px;
+	border:1px solid #888;
+	clear:both;
+	display:block;
+}
